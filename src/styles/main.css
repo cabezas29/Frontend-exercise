@@ -1,0 +1,192 @@
+/* Reinicio de Estilos CSS */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* Estilos de inicio de la página para centrarla */
+body {
+  max-width: 1000px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Definiendo color de background header */
+header {
+  background: #f4f4f4;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  padding: 0px 0px 5px 0px;
+}
+
+header h3 {
+  font-size: 1em;
+}
+
+.descripcion {
+  font-size: 13px;
+}
+/* Definiendo Estilos del Menu */
+.nav__menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0;
+  padding: 5px 0px;
+  list-style: none;
+}
+/* Colores de letra y estilo de los botones del menu */
+.nav__menu ul li a {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem;
+  background: #d6d6d6;
+  text-decoration: none;
+  color: #c84451;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* Accion de hover para cambiar de color cuando se pase el mouse por encima */
+.nav__menu ul li a:hover {
+  background: #c84451;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Definiendo los estilos de contenido principal */
+main {
+  background: #f4f4f4;
+  padding: 10px;
+}
+
+.contenido__inicio--principal {
+  display: flex;
+  background: #ffffff;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.title__descripcion {
+  padding: 5px 0px;
+  font-size: 20px;
+  color: #c84451;
+}
+
+.inicio--descripcion p {
+  padding-right: 15px;
+}
+/* Estilizando imagen con bordes tamaño y sombra del marco */
+figure {
+  background: #ffffff;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+figure img {
+  padding: 5px;
+  width: 300px;
+  height: 150px;
+}
+/* Estilos de la segunda seccion del contenido principal */
+.contenido__inicio--intermedio {
+  margin: 10px 0px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.contenido--articulos {
+  display: flex;
+}
+
+.contenido--encabazados {
+  width: 400px;
+  padding: 20px;
+}
+
+.contenido--encabazados p {
+  padding: 5px 0px;
+}
+
+.contenido--encabazados p span {
+  font-weight: bold;
+  color: #c84451;
+}
+
+.contenido--encabazados small {
+  font-size: 12px;
+}
+
+.contenido--descripcion {
+  padding: 10px;
+}
+
+.contenido--descripcion p {
+  padding-bottom: 10px;
+}
+
+.contenido--descripcion a {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #c84451;
+}
+/* Estilos de la linea que divide los secciones de los estilos de cada articulo */
+hr {
+  margin: auto;
+  border-color: #c84451;
+  width: 80%;
+  align-self: center;
+}
+
+.contenido__final {
+  display: flex;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.contenido__final img {
+  width: 310px;
+  height: 130px;
+  padding: 15px;
+}
+
+.contenido__final div {
+  padding: 15px;
+  font-size: 13px;
+}
+/* Estilos del footer donde se encuentran las redes sociales y copyright */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f4f4f4;
+}
+
+.social__media {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.social__media.twitter {
+  background-image: url("../../assets/twitter.svg");
+  background-size: 30px 30px;
+}
+
+.social__media.facebook {
+  background-image: url("../../assets/facebook.svg");
+  background-size: 30px 30px;
+}
+
+.social__media.spotify {
+  background-image: url("../../assets/logo.svg");
+  background-size: 30px 30px;
+}
+
+.social__media.youtube {
+  background-image: url("../../assets/youtube.svg");
+  background-size: 30px 30px;
+}
+
+.copyrigth p {
+  font-size: 10px;
+}
